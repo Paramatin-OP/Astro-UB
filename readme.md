@@ -85,15 +85,15 @@ height="40px" width="200px" alt="heroku" /></a>
 
 pkg update && pkg upgrage
 pkg install git 
-# git clone 
+#git clone 
 git clone https://github.com/PsychoBots/Astro-UB
 cd Astro-UB
-# create Virtualenv 
+#create Virtualenv 
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
-# install requirements 
+#install requirements 
 pip install -r requirements.txt
-# <Create local_config.py with variables as given below>
+#<Create local_config.py with variables as given below>
 python3 -m AstroUB.py
 
 ```
