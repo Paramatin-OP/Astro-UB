@@ -75,7 +75,7 @@
   },
   "HNDLR": {
     "description": "Your Command Hander of ASTRO",
-    "value": "",
+    "value": ".",
     "required": false
   },
   "NAME": {
