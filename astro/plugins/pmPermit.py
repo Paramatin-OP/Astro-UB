@@ -14,10 +14,10 @@ from astro.utils import admin_cmd
 from astro.config import Config
 
 NAME = Config.NAME
-PMPERMIT_PIC = Config.PM_PIC
+PM_PIC = os.environ.get("PM_PIC", None)
 ASTRO_PIC = (
-    PMPERMIT_PIC
-    if PMPERMIT_PIC
+    PM_PIC
+    if PM_PIC
     else "https://telegra.ph/file/1dc4cf071ecd2be57e30a.jpg"
 )
 PM_WARNS = {}
