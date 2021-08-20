@@ -1,7 +1,7 @@
 <p align="center">
    
    <a href="https://github.com/PsychoBots/Astro-UB">
-      <img src="resources/astroreadme.jpg" height="400px" width="400px" border="1px" alt="astro">
+      <img src="resources/astroreadme.jpg" border="1px" alt="astro">
       </a>
       <br>
    <b>ƛsτʀ๏ υsєяъ๏т</b><br>
