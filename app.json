@@ -75,7 +75,7 @@
   },
   "HNDLR": {
     "description": "Your Command Hander of ASTRO leave it as it is for (dot)",
-    "value": "",
+    "value": ".",
     "required": false
   },
   "NAME": {
