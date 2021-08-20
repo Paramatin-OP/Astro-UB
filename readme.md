@@ -117,7 +117,7 @@ python3 -m AstroUB.py
 <p align="center">
    
    <a href="https://github.com/PsychoBots/Astro-UB">
-      <img src="resources/ytastro.jpg" height="500px" width="500px" border="2px" alt="astro">
+      <img src="resources/ytastro.jpg" height="500px" width="450px" border="2px" alt="astro">
       </a>
       <br>
    <b><i>ƜƛƬƇӇ</i></b><br>
