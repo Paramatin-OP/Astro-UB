@@ -1,6 +1,6 @@
 <p align="center">
    
-   <a href="https://github.com/PsychoBots/Astro-UB">
+   <a href="https://t.me/Astro_UserBot">
       <img src="resources/astroreadme.jpg" border="1px" alt="astro">
       </a>
       <br>
@@ -8,7 +8,7 @@
    <i>ƬӇЄ ƑƲƬƲƦƖṠƬƖƇ ƲƁ</i>
 </p>
 
-<b><h4> THIS IS A POWNERFULL, USEFULL TELETHON USERBOT</h4></b>
+<b><h4> ASTRO IS A POWNERFULL, USEFULL TELETHON USERBOT</h4></b>
 <br>
 <i><h3> 𝚂𝚃𝙰𝚃𝚄𝚂 𝙾𝙵 𝙱𝙾𝚃 </h3></i>
 <br>
