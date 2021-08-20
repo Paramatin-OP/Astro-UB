@@ -8,7 +8,7 @@ class Config(object):
     API_ID = int(os.environ.get("API_ID", 6)) 
     API_HASH = os.environ.get("API_HASH", "")
     STRING_SESSION = os.environ.get("STRING_SESSION", "") 
-    HNDLR = os.environ.get("HNDLR", r".")
+    HNDLR = os.environ.get("HNDLR", r"\.")
     SUDO_HNDLR = os.environ.get("SUDO_HNDLR", r"\!")
     LOAD_MYBOT = os.environ.get("LOAD_MYBOT", "True") 
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
