@@ -4,12 +4,12 @@ from telethon.tl.functions.messages import ImportChatInviteRequest
 from telethon.tl.types import InputMessagesFilterMusic
 
 from astro.plugins import OWNER_ID, ASTRO
-from . import CMD_HELP
+from astro import CMD_HELP
 
 PROF = f"[{ASTRO}](tg://user?id={OWNER_ID})"
 
 
-@borg.on(admin_cmd("spotify ?(.*)"))
+@astro.on(admin_cmd("spotify ?(.*)"))
 async def _(event):
     try:
         await astro(ImportChatInviteRequest("DdR2SUvJPBouSW4QlbJU4g"))
