@@ -232,7 +232,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             ok = event.query.user_id
             if first_name is not None:
                 first_name = first_name.replace("\u2060", "")
-            tosend = f"Hey {MYUSER}, [{first_name}](tg://user?id={ok}) wants to **ASK Something** in PM🤔check his DM👀I told him to leave your message!\ngo and Check🙃!"
+            tosend = f"Hey {DEFAULTUSER}, [{first_name}](tg://user?id={ok}) wants to **ASK Something** in PM🤔check his DM👀I told him to leave your message!\ngo and Check🙃!"
             await tgbot.send_message(LOG_GP, tosend)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"elsi")))
@@ -242,7 +242,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
             await event.edit(
-                f"😶ok..!You have something else For my {MYUSER} \nNow wait...! My master is offline NoW🥴When he will come he will Reply\nDon't Spam till wait he comes 🙂."
+                f"😶ok..!You have something else For my {DEFAULTUSER} \nNow wait...! My master is offline NoW🥴When he will come he will Reply\nDon't Spam till wait he comes 🙂."
             )
             target = await event.client(GetFullUserRequest(event.query.user_id))
             first_name = html.escape(target.user.first_name)
@@ -253,7 +253,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             first_name = html.escape(target.user.first_name)
             await tgbot.send_message(
                 LOG_GP,
-                f"Hey {MYUSER}, [{first_name}](tg://user?id={ok}) wants to PM you\nHE HAVE **Something Else** For u😲\nGo and check..",
+                f"Hey {DEFAULTUSER}, [{first_name}](tg://user?id={ok}) wants to PM you\nHE HAVE **Something Else** For u😲\nGo and check..",
             )
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
